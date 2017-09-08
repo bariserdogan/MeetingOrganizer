@@ -1,0 +1,66 @@
+﻿@model IEnumerable<MeetingOrganizer.DataAccess.Model.Meeting>
+
+@{
+    ViewBag.Title = "MeetingList";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <h2 class="text-center"><span class="label label-primary">Toplantı Organizasyon Listesi</span></h2>
+
+            <p class="text-center">
+                <a href="/Organization/MeetingCreate" class="btn btn-success">Yeni toplantı oluştur</a>
+            </p>
+            <p class="text-center">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+                <table class="table table-hover table-bordered text-center">
+                    <tr>
+                        <th class="text-center">
+                            Toplantı Konusu
+                        </th>
+                        <th class="text-center">
+                            Toplantı Tarihi
+                        </th>
+                        <th class="text-center">
+                            Başlangıç Saati
+                        </th>
+                        <th class="text-center">
+                            Bitiş Saati
+                        </th>
+                        <th class="text-center">
+                            İşlemler
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.meetingTopic)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.meetingDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.startTime)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.finishTime)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Düzenle", "MeetingEdit", new { id = item.meetingID }, new { @class = "btn btn-warning" }) |
+                                @Html.ActionLink("Sil", "Delete", new { id = item.meetingID }, new { @class = "btn btn-danger" })
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\MeetingOrganizer.DataAccess.dll.config
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\MeetingOrganizer.DataAccess.dll
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\MeetingOrganizer.DataAccess.pdb
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\FakeData.dll
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\bin\Debug\FakeData.pdb
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\obj\Debug\MeetingOrganizer.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\obj\Debug\MeetingOrganizer.DataAccess.dll
+C:\Users\BARIS\Desktop\MeetingOrganizerSolution\MeetingOrganizer.DataAccess\obj\Debug\MeetingOrganizer.DataAccess.pdb
